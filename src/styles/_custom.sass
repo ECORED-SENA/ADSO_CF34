@@ -21,7 +21,16 @@
 
 .fondo1
   background: url('../assets/curso/fondo1.svg')
-  background-position: 50% 80%
+  background-position: top
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and ( max-width: 992px)
+    background-size: cover 
+    margin-inline: -1.4rem
+.fondo2
+  background: url('../assets/curso/fondo2.svg')
+  background-position: 50% 79%
   background-size: contain
   background-repeat: no-repeat
   margin-inline: -3.4rem
@@ -31,6 +40,66 @@
 
 .cajon.color-primario
   background-color: #C9F1F6
+.cajon.color-acento-botones 
+  background-color: #FFECB1  
   
 .border-left
   border-left: 1px solid #AFAFAF
+
+
+.tarjetas-tema5 
+  .col-lg-3
+    box-shadow: 0px 0px 4px #959494
+    background-color: #FFF
+    border-radius: 10px
+    margin-top: -1rem
+    @media (max-width: 992px)  
+      margin: 0 
+  .numero1
+    border-radius: 50%
+    margin: 0 auto
+    height: 60px
+    width: 60px
+    color: #FFF   
+    display: flex
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #1565C0 
+    span 
+      font-size: 32px
+      font-weight: 600
+  .numero2
+    border-radius: 50%
+    margin: 0 auto
+    height: 60px
+    width: 60px
+    color: #FFF   
+    display: flex
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #12263F 
+    span 
+      font-size: 32px
+      font-weight: 600
+  .numero3
+    border-radius: 50%
+    margin: 0 auto
+    height: 60px
+    width: 60px
+    color: #FFF   
+    display: flex
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #1565C0
+    span 
+      font-size: 32px
+      font-weight: 600        

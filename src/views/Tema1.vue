@@ -17,51 +17,54 @@
           p.mb-0 
             strong.resaltado-contenido De acuerdo con Gonzáles y Pelissier (2002), 
             | los métodos o funciones permiten segmentar el trabajo que hace un programa en subtareas o tareas más pequeñas, enfocadas en un fin específico, y se pueden utilizar cuantas veces se necesite; estas están separadas del programa principal, pero aportan a su objetivo.
+      
 
-    .row.mb-5(data-aos="fade-down")
-      .cajon.color-acento-botones.p-4
-        p.mb-0 El uso de funciones da la capacidad de agrupar varias instrucciones de código bajo un solo nombre, y con el nombre de la función, es posible invocarlo las veces que se necesite, permitiendo usar esta función las veces que sean necesarias.
+    .row.align-items-center.fondo1
+      .col-lg-12.px-lg-5
+        .row.mb-5(data-aos="fade-down")
+          .col-lg-12
+            .cajon.color-acento-botones.p-4
+              p.mb-0 El uso de funciones da la capacidad de agrupar varias instrucciones de código bajo un solo nombre, y con el nombre de la función, es posible invocarlo las veces que se necesite, permitiendo usar esta función las veces que sean necesarias.
+        .row.justify-content-center.align-items-center
+          .col-lg-5.mb-4(data-aos="fade-right")
+            figure
+              img(src='@/assets/curso/tema1-img2.svg' alt='Métodos o funciones')
+          .col-lg-7.mb-4(data-aos="fade-left")
+            h3 Ejemplo 1: 
+            p La función se define con la siguiente sintaxis:
+            .cajon.color-primario.p-4.mb-4
+              p.mb-0 <b>Nota:</b> el símbolo “//” quiere decir que no hace parte del código, se lo utiliza para hacer comentarios sobre el código, por lo cual se pone en color azul.
+            .row.bg-gris2.mx-1.px-3
+              .col-lg-1.pt-3
+                strong 1
+              .col-lg-11.border-left.pt-3
+                p.mb-0 &lt;?php
+              .col-lg-1
+                strong 2
+              .col-lg-11.border-left
+                p.mb-0 function media_aritmetica($a, $b){  //Aquí definimos la función y la llamamos media_arimetica y las variables a y b 
+              .col-lg-1
+                strong 3
+              .col-lg-11.border-left
+                p.mb-0 $media=($a+$b)/2;		 //escribimos la fórmula de la media, en este caso de 2 números divididos entre 2
+              .col-lg-1
+                strong 4
+              .col-lg-11.border-left
+                p.mb-0 return $media;			 // aquí la función retorna el valor de la media
+              .col-lg-1
+                strong 5
+              .col-lg-11.border-left
+                p.mb-0  }
+              .col-lg-1
+                strong 6
+              .col-lg-11.border-left
+                p.mb-0 echo media_aritmetica(7,9),”&lt;br&gt;”; // aquí ingresamos los números, en este caso 7 y 9
+              .col-lg-1.pb-3
+                strong 7
+              .col-lg-11.border-left.pb-3
+                p.mb-0 echo media_aritmetica(300,500),”&lt;br&gt;”; ?> //aquí ingresamos otros dos números 300 y 500   
 
-    .row.align-items-center
-      .col-lg-5.mb-4(data-aos="fade-right")
-        figure
-          img(src='@/assets/curso/tema1-img2.svg' alt='Métodos o funciones')
-      .col-lg-7.mb-4(data-aos="fade-left")
-        h3 Ejemplo 1: 
-        p La función se define con la siguiente sintaxis:
-        .cajon.color-primario.p-4.mb-4
-          p.mb-0 <b>Nota:</b> el símbolo “//” quiere decir que no hace parte del código, se lo utiliza para hacer comentarios sobre el código, por lo cual se pone en color azul.
-        .row.bg-gris2.mx-1.px-3
-          .col-lg-1.pt-3
-            strong 1
-          .col-lg-11.border-left.pt-3
-            p.mb-0 &lt;?php
-          .col-lg-1
-            strong 2
-          .col-lg-11.border-left
-            p.mb-0 function media_aritmetica($a, $b){  //Aquí definimos la función y la llamamos media_arimetica y las variables a y b 
-          .col-lg-1
-            strong 3
-          .col-lg-11.border-left
-            p.mb-0 $media=($a+$b)/2;		 //escribimos la fórmula de la media, en este caso de 2 números divididos entre 2
-          .col-lg-1
-            strong 4
-          .col-lg-11.border-left
-            p.mb-0 return $media;			 // aquí la función retorna el valor de la media
-          .col-lg-1
-            strong 5
-          .col-lg-11.border-left
-            p.mb-0  }
-          .col-lg-1
-            strong 6
-          .col-lg-11.border-left
-            p.mb-0 echo media_aritmetica(7,9),”&lt;br&gt;”; // aquí ingresamos los números, en este caso 7 y 9
-          .col-lg-1.pb-3
-            strong 7
-          .col-lg-11.border-left.pb-3
-            p.mb-0 echo media_aritmetica(300,500),”&lt;br&gt;”; ?> //aquí ingresamos otros dos números 300 y 500   
-
-    .row.fondo1
+    .row.fondo2
       .col-lg-12.px-lg-5
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-3(data-aos="fade-right")
