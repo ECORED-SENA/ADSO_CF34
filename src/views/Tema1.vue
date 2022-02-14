@@ -19,7 +19,7 @@
             | los métodos o funciones permiten segmentar el trabajo que hace un programa en subtareas o tareas más pequeñas, enfocadas en un fin específico, y se pueden utilizar cuantas veces se necesite; estas están separadas del programa principal, pero aportan a su objetivo.
       
 
-    .row.align-items-center.fondo1
+    .row.align-items-center.fondo1-tema1
       .col-lg-12.px-lg-5
         .row.mb-5(data-aos="fade-down")
           .col-lg-12
@@ -64,7 +64,7 @@
               .col-lg-11.border-left.pb-3
                 p.mb-0 echo media_aritmetica(300,500),”&lt;br&gt;”; ?> //aquí ingresamos otros dos números 300 y 500   
 
-    .row.fondo2
+    .row.fondo2-tema1
       .col-lg-12.px-lg-5
         .row.justify-content-center.align-items-center
           .col-lg-7.mb-3(data-aos="fade-right")
