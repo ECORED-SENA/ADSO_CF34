@@ -47,7 +47,7 @@
 
     .row.justify-content-center
       .col-lg-10
-        .tarjeta.color-primario.p-3.mb-5
+        .tarjeta.bg-degrade.p-3.mb-5
           .row.justify-content-around.align-items-center
             .col-3.col-sm-2.col-lg-2.px-lg-4
               img.px-lg-2(src="@/assets/curso/actividad-img.svg")
