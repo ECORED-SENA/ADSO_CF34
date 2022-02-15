@@ -35,33 +35,33 @@
             .cajon.color-primario.p-4.mb-4
               p.mb-0 <b>Nota:</b> el símbolo “//” quiere decir que no hace parte del código, se lo utiliza para hacer comentarios sobre el código, por lo cual se pone en color azul.
             .row.bg-gris2.mx-1.px-3
-              .col-lg-1.pt-3
+              .col-1.pt-3
                 strong 1
-              .col-lg-11.border-left.pt-3
+              .col-11.border-left.pt-3
                 p.mb-0 &lt;?php
-              .col-lg-1
+              .col-1
                 strong 2
-              .col-lg-11.border-left
+              .col-11.border-left
                 p.mb-0 function media_aritmetica($a, $b){  //Aquí definimos la función y la llamamos media_arimetica y las variables a y b 
-              .col-lg-1
+              .col-1
                 strong 3
-              .col-lg-11.border-left
+              .col-11.border-left
                 p.mb-0 $media=($a+$b)/2;		 //escribimos la fórmula de la media, en este caso de 2 números divididos entre 2
-              .col-lg-1
+              .col-1
                 strong 4
-              .col-lg-11.border-left
+              .col-11.border-left
                 p.mb-0 return $media;			 // aquí la función retorna el valor de la media
-              .col-lg-1
+              .col-1
                 strong 5
-              .col-lg-11.border-left
+              .col-11.border-left
                 p.mb-0  }
-              .col-lg-1
+              .col-1
                 strong 6
-              .col-lg-11.border-left
+              .col-11.border-left
                 p.mb-0 echo media_aritmetica(7,9),”&lt;br&gt;”; // aquí ingresamos los números, en este caso 7 y 9
-              .col-lg-1.pb-3
+              .col-1.pb-3
                 strong 7
-              .col-lg-11.border-left.pb-3
+              .col-11.border-left.pb-3
                 p.mb-0 echo media_aritmetica(300,500),”&lt;br&gt;”; ?> //aquí ingresamos otros dos números 300 y 500   
 
     .row.fondo2-tema1
