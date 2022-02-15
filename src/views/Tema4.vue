@@ -25,7 +25,7 @@
         p Los mismos autores hacen notar que su función es permitir que los dispositivos interactúen entre sí y presenten información dinámica al usuario, con base en una arquitectura de referencia estándar, que hace posible su combinación para realizar integraciones entre las mismas aplicaciones.        
 
     .desborde.mb-5
-      .h2.text-white.px-lg-5.px-4.py-2 CREACIÓN DE SERVICIOS
+      .h2.fit-content.text-white.px-lg-5.px-4.py-2 CREACIÓN DE SERVICIOS
 
     .tarjeta.fondo-slider.p-4.mb-4
       SlyderA(tipo="b")

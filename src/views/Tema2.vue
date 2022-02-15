@@ -46,7 +46,8 @@
               figure.efect1
                 img.mb-3(src="@/assets/curso/tema2-hover1.svg", style="width:170px").m-auto
               h4.bg-azul.centrado.text-white Analogía  
-          .col-3
+          .col-3.hover-columna(@mouseover="mostrarIndicador = false")
+            .indicador--click(v-if="mostrarIndicador")
             a(href="#2A")
               figure.efect1
                 img.mb-3(src="@/assets/curso/tema2-hover2.svg", style="width:170px").m-auto
@@ -62,7 +63,8 @@
     .row.py-4.align-items-center.justify-content-between
       .col-4
         h4.bg-azul.text-white Analogía 
-      .col-2
+      .col-2.hover-columna(@mouseover="mostrarIndicador = false")
+        .indicador--click(v-if="mostrarIndicador")
         a(href="#menu1")
           figure.efect1
             img(src="@/assets/curso/flecha.svg", style="width:50px").m-auto
@@ -134,6 +136,7 @@ export default {
   name: 'Tema2',
   data: () => ({
     // variables de vue
+    mostrarIndicador: true,
   }),
   mounted() {
     this.$nextTick(() => {
