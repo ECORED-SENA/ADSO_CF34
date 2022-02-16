@@ -16,7 +16,7 @@
         .bg-gris.neg--right.p-lg-4.p-4
           p Para iniciar con ese tema, es preciso recordar que el SQL (Structured Query Language) es un lenguaje de consulta estructurado, definido como la base de datos relacionales con el lenguaje de alto nivel estándar.
           p De acuerdo con García (2003), el SQL agrupa tres tipos de sentencias con objetivos particulares, en los siguientes lenguajes: 
-        .row.justify-content-center.tarjetas-tema5
+        .row.justify-content-center.tarjetas-tema5.neg--top3  
           .col-lg-3.text-center.mb-2.p-3.mx-2
             .numero1.mb-2
               span 1
@@ -26,7 +26,7 @@
               span 2
             strong (DML) Lenguaje de Manipulación de Datos
           .col-lg-3.text-center.mb-2.p-3.mx-2
-            .numero3.mb-2
+            .numero1.mb-2
               span 3
             strong (DCL) Lenguaje de Control de Datos    
 

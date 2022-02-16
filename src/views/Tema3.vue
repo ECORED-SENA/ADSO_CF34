@@ -183,7 +183,6 @@
                 .p-4
                   h4 Descripciones concretas
                   p Comunican datos específicos, como el protocolo de transmisión.       
-
     
     .row.fondo1-tema3-3
       .col-lg-12.px-lg-5.mb-lg-5
@@ -209,9 +208,191 @@
 
     Separador
 
+
     #t_3_4
     .titulo-segundo.color-acento-contenido
       h2 3.4 UDDI “Universal Description, Discovery, and Integration”   
+
+    .row.fondo1-tema4.mb-4
+      .col-lg-12.px-lg-5
+        .row.justify-content-center.align-items-center.mt-0.mb-lg-4
+          .col-lg-4.mb-4.mb-lg-0
+            img(src='@/assets/curso/tema3-4-img1.svg' alt='Imagen decorativa')
+          .col-lg-8.py-3
+            figure.mb-3
+              img(src='@/assets/curso/tema3-4-IBM.svg' alt='IBM', style="width: 200px")
+            .separador3.mb-3
+            .title-18.mb-0 <b>Para IBM Corporation (s. f.), UDDI (Universal Description, Discovery, and Integration)</b> “define un modo de publicar y encontrar información sobre servicios web, incluye un esquema XML para mensajes SOAP que define un conjunto de documentos para describir información de empresas y servicios, un conjunto común de API para consultar y publicar información en los directorios y una API para duplicar entradas de directorio entre nodos UDDI iguales”.
+
+    p <b>UDDI</b> tiene dos funciones:
+
+    ul.lista-ul.px-3.mb-5
+      li.mb-1
+        i.fas.fa-layer-group(style='color: #039BE5')
+        p.mb-0 Es un protocolo basado en SOAP que define cómo se comunican los clientes con los registros UDDI.
+      li
+        i.fas.fa-layer-group(style='color: #039BE5')
+        p.mb-0 Es un conjunto de registros duplicados globales en particular. 
+
+    .row.justify-content-center
+      .col-lg-7
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 2. 
+          span Protocolo UDDI
+        figure
+          img(src='@/assets/curso/tema3-4-fig.svg' alt='Protocolo UDDI')  
+
+    Separador
+
+
+    #t_3_5
+    .titulo-segundo.color-acento-contenido
+      h2 3.5 REST “Representational State Transfer”  
+
+    p El protocolo REST (Representational State Transfer) es una arquitectura cliente-servidor, en la cual un servicio es visto como un recurso que es identificado a través de una dirección URL, por medio de la cual puede ser accedido o consumido. Para acceder a estos servicios web, se hace uso de mensajes en formato simple, los cuales se intercambian entre cliente y servidor.
+    p.mb-5 Este define, a partir de HTTP, cuatro métodos:
+
+    .row.fondo1-tema3-3.pb-lg-5
+      .col-lg-12.px-lg-5.mb-lg-5
+        .row.justify-content-center.mt-0.mb-lg-4
+          .col-lg-6.mb-4
+            img(src='@/assets/curso/tema3-5-img1.svg' alt='Imagen decorativa')
+          .col-lg-4.mb-4
+            SlyderF(columnas="col-12")
+              .tarjeta.bg-blanco.p-4
+                .row.justify-content-center.mb-3
+                  .col-8.centrar-imagen
+                    img(src='@/assets/curso/tema3-5-tarj1.svg' alt='GET', style="width: 100px")
+                h4.text-center GET
+                p Es usado para enviar la representación de un recurso o servicio al cliente “consulta información”.
+              .tarjeta.bg-blanco.p-4
+                .row.justify-content-center.mb-3
+                  .col-8.centrar-imagen
+                    img(src='@/assets/curso/tema3-5-tarj2.svg' alt='PUT', style="width: 100px")
+                h4.text-center PUT
+                p Este es usado para transferir el estado de un cliente al recurso “actualiza un registro”.   
+              .tarjeta.bg-blanco.p-4
+                .row.justify-content-center.mb-3
+                  .col-8.centrar-imagen
+                    img(src='@/assets/curso/tema3-5-tarj3.svg' alt='DELETE', style="width: 100px")
+                h4.text-center DELETE
+                p Borra un recurso específico.  
+              .tarjeta.bg-blanco.p-4
+                .row.justify-content-center.mb-3
+                  .col-8.centrar-imagen
+                    img(src='@/assets/curso/tema3-5-tarj4.svg' alt='POST', style="width: 100px")
+                h4.text-center POST
+                p Es utilizado para enviar una entidad a un recurso en específico, causando a menudo un cambio en el estado o efectos secundarios en el servidor “crear un nuevo registro”.
+    
+    .row.justify-content-center.neg--top2
+      .col-lg-12
+        figure
+          img(src='@/assets/curso/tema3-5-img2.jpg' alt='SOAP “Simple Object Access Protocol”')
+      .col-lg-10.bg-naranja.borde-redondo.neg--top.p-4          
+        p.mb-0 El mismo autor resalta que, para hacer uso de esta comunicación, se hace a través de estos lenguajes o formatos: XML, HTML, JSON; JSON, este es el tipo de mensajes más difundido en diferentes servicios propios de redes sociales (Facebook y Twitter) y comunidades en Internet. Cada mensaje intercambiado contiene la información necesaria para el funcionamiento del servicio, de tal forma que, para cada servicio, el cliente y el servidor conocen el formato o protocolo interno de los mensajes.
+
+    Separador
+
+
+    #t_3_6
+    .titulo-segundo.color-acento-contenido
+      h2 3.6 JSON “JavaScript Object Notation”  
+
+    .row.justify-content-center.align-items-center.fondo1-tema4.mb-5
+      .col-12.col-lg-5.mb-4.mb-lg-0.mt-0
+        figure
+          img.mt-0(src='@/assets/curso/tema3-6-img1.jpg' alt='JSON “JavaScript Object Notation”')
+      .col-lg-7.pb-5
+        .row.align-items-center.justify-content-center.tarjeta--azulRey.neg--right.mb-4.mt-2(data-aos="fade-left")
+          .col-lg-12
+            figure.mb-0
+              img(src='@/assets/curso/comilla.svg').img-position2
+            .row.justify-content-center
+              .col-lg-9
+                p.text-white JSON (JavaScript Object Notation) es un formato ligero de intercambio de datos, es de fácil lectura y escritura para los usuarios, fácil de analizar y generar por parte de los dispositivos, además, se basa en un subconjunto del lenguaje de programación JavaScript; es compatible con la gran mayoría de lenguajes de programación, lo que lo hace el más popular y usado en el web service. 
+            .row.mb-4
+              .col-11.d-inline-flex.justify-content-end.align-items-center
+                p.mb-0.text-white <b>(IBM Corporation, 2020)</b>
+                .cuadro
+        p.mb-4 La cardinalidad, o también llamada multiplicidad, indica la cantidad de elementos o instancias de una entidad A que se relacionan con una instancia de una entidad B y viceversa. Esta puede ser de 4 tipos:
+        .row.justify-content-center.tarjetas-tema3
+          .col-lg-2.text-center.mb-2.p-3.mx-2
+            .numero1.mb-2
+              span 1
+            strong Uno a uno “única”
+          .col-lg-2.text-center.mb-2.p-3.mx-2
+            .numero2.mb-2
+              span 2
+            strong Uno a varios “múltiple”
+          .col-lg-2.text-center.mb-2.p-3.mx-2
+            .numero1.mb-2
+              span 3
+            strong Varios a uno “múltiple”
+          .col-lg-2.text-center.mb-2.p-3.mx-2
+            .numero2.mb-2
+              span 4
+            strong Varios a varios “múltiple”
+
+    p.mb-4 A continuación, observe un ejemplo: 
+
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+      .row.justify-content-center(titulo="Ejemplo 1")
+        .col-md-11
+          p Se va a crear un objeto con el nombre negocio con cardinalidad única:
+        .col-lg-7.mb-5
+          figure
+            img(src='@/assets/curso/tema3-6-acord1-1.svg')
+        .col-md-11
+          p Se asignan los siguientes valores para las propiedades del objeto negocio:
+        .col-lg-7.mb-5
+          figure
+            img(src='@/assets/curso/tema3-6-acord1-2.png')
+        .col-md-11
+          p El formato Json quedaría de la siguiente forma:
+        .col-lg-7.mb-4
+          figure
+            img(src='@/assets/curso/tema3-6-acord1-3.svg')
+      .row.justify-content-center(titulo="Ejemplo 2")
+        .col-md-11
+          p Se va a crear un objeto con el nombre negocio con cardinalidad múltiple:
+        .col-lg-7.mb-5
+          figure
+            img(src='@/assets/curso/tema3-6-acord2-1.svg')
+        .col-md-11
+          p También, se asignan los siguientes valores para las propiedades del objeto negocio:
+        .col-lg-7.mb-5
+          figure
+            img(src='@/assets/curso/tema3-6-acord2-2.png')
+        .col-md-11
+          p El formato Json quedaría de la siguiente forma:
+        .col-lg-7.mb-4
+          figure
+            img(src='@/assets/curso/tema3-6-acord2-3.svg')
+
+    .row.d-flex.mb-5
+      .col-md-3.bg-blanco.bg-shadow.centrar-imagen
+        figure.p-3
+          img(src='@/assets/curso/tema3-6-img3.svg' alt='XML', style="width:200px")
+      .col-md-9.bg-celeste2.py-3
+        .row.justify-content-center
+          .col-md-11
+            p En el ejemplo 1, se observa una cardinalidad única, ya que es de uno a varios, mientras que en el ejemplo 2, es una cardinalidad múltiple, porque se relaciona de varios a varios.
+          .col-md-10
+            .tarjeta.bg-degrade3.p-3
+              .row.justify-content-around.align-items-center
+                .col-3.col-sm-2.col-lg-2.px-lg-4
+                  img.px-lg-1(src="@/assets/curso/actividad-img.svg")
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-3.mb-sm-0.text-white
+                      h4.mb-2 Actividad didáctica 1
+                      p.text-small Póngase a prueba, es hora de responder la siguiente actividad, ¡adelante!
+                    .col-sm-auto
+                      a.boton.color-acento-botones(:href="obtenerLink('/actividades/actividad1/actividad.html')" target="_blank")
+                        span Ver
+                        i.fas.fa-link
+
+
 
 
 </template>
