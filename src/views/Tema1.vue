@@ -23,7 +23,7 @@
       .col-lg-12.px-lg-5
         .row.mb-5(data-aos="fade-down")
           .col-lg-12
-            .cajon.color-acento-botones.p-4
+            .cajon.color-acento-contenido.p-4
               p.mb-0 El uso de funciones da la capacidad de agrupar varias instrucciones de código bajo un solo nombre, y con el nombre de la función, es posible invocarlo las veces que se necesite, permitiendo usar esta función las veces que sean necesarias.
         .row.justify-content-center.align-items-center
           .col-lg-5.mb-4(data-aos="fade-right")

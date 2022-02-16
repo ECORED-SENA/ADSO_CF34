@@ -2,10 +2,19 @@
   position: relative
 .texto-cursivo
   font-size: 28px
+.strong
+  font-weight: bold  
 .texto-cursivo .raya-abajo
   border-bottom: 2px solid
 .borde-redondo
   border-radius: 20px
+.centrar-imagen 
+  display: flex;
+  align-content: center;
+  align-items: center;
+.centrar-imagen img
+  margin: 0 auto
+
 
 .resaltado-contenido
   color: #FFA726   
@@ -18,6 +27,12 @@
   background-color: #FAFAFA  
 .bg-blanco
   background-color: #FFF 
+.bg-celeste
+  background-color: #C9F1F6  
+.bg-azul
+  background-color: #12263F  
+.bg-naranja
+  background-color: #FFA726
 .bg-degrade
   background: rgb(77,208,225)
   background: linear-gradient(180deg, rgba(77,208,225,1) 0%, rgba(3,155,229,1) 100%)
@@ -25,8 +40,8 @@
 .bg-degrade2
   background: rgb(245,245,245)
   background: linear-gradient(180deg, rgba(245,245,245,1) 0%, rgba(175,175,175,1) 100%)  
-.bg-azul
-  background-color: #12263F
+.bg-shadow
+  box-shadow: 0px 0px 4px #959494    
 
 .onTop
   z-index: 999
@@ -105,7 +120,25 @@
   margin-inline: -3.4rem
   @media screen and ( max-width: 992px)
     background-size: cover 
-    margin-inline: -1.4rem                     
+    margin-inline: -1.4rem  
+.fondo1-tema3
+  background: url('../assets/curso/fondo1-tema3.svg')
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and ( max-width: 992px)
+    background-size: cover 
+    margin-inline: -1.4rem       
+.fondo1-tema3-3
+  background: url('../assets/curso/fondo1-tema3-3.svg')
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and ( max-width: 992px)
+    background-size: cover 
+    margin-inline: -1.4rem                      
 .desborde
   margin-inline: -3.4rem
   @media screen and ( max-width: 992px)
@@ -155,6 +188,13 @@
   margin-top: -2.8rem !important
   @media screen and ( max-width: 992px)
     margin-top: 0rem  
+
+.linea-decoracion
+  background-image: url('../assets/curso/linea-decoracion.svg')
+  background-size: auto
+  background-position: bottom
+  background-repeat: no-repeat  
+  
 
 .cajon.color-primario
   background-color: #C9F1F6
@@ -239,7 +279,11 @@
   position: relative
   top: -10px
   left: 30px  
-
+.img-position2
+  width: 55px
+  position: relative
+  top: 0px
+  left: 30px  
 
 .bg-tarjeta-icono
   border: 1px solid #AFAFAF  
@@ -261,7 +305,17 @@ h4.bg-azul
 .efect1:hover
   transform: scale(1.2)  
 
+  
+th.tabla1
+  font-size: 18px
+  font-weight: 600
 td.tabla2, th.tabla2
   font-size: 18px
   font-weight: 600
   text-align: left 
+
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  font-size: 20px
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content  
+  background-color: #C9F1F6
