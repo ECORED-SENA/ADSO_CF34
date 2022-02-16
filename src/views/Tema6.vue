@@ -25,7 +25,7 @@
             .titulo-sexto.color-acento-contenido
               h5 Tabla 2. 
               span PHP
-            .tabla-a.color-acento-botones 
+            .tabla-a.color-acento-contenido 
               table
                 thead
                   tr

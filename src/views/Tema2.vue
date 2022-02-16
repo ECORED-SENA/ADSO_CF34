@@ -40,7 +40,7 @@
       .col-lg-6
         h2.text-center A continuación, observe la diferencia entre clases y objetos con una analogía:
       .col-lg-9.pt-3#menu1
-        .row.justify-content-center.img-position2
+        .row.justify-content-center
           .col-3
             a(href="#1A")
               figure.efect1

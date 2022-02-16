@@ -8,15 +8,15 @@
         span.text-white 4
       h1 Creación de servicios
 
-    .row.justify-content-center.align-items-center.fondo1-tema4
+    .row.justify-content-center.fondo1-tema4
       .col-12.col-lg-5.mb-4.mb-lg-0.mt-0
         figure
           img.mt-0(src='@/assets/curso/tema4-img1.jpg' alt='Creación de servicios')
       .col-lg-7.pb-5
-        .row.align-items-center.justify-content-center.tarjeta--azulRey.neg--right.mb-4.mt-2(data-aos="fade-left")
+        .row.align-items-center.justify-content-center.tarjeta--azulRey.neg--right.mb-4.mt-3(data-aos="fade-left")
           .col-lg-11
             figure.mb-0
-              img(src='@/assets/curso/comilla.svg').img-position1
+              img(src='@/assets/curso/comilla.svg').img-position2
             p.text-white Indican que es una tecnología que establece unos estándares y protocolos que se utilizan para intercambiar datos entre distintas aplicaciones, plataformas y con diferentes o iguales lenguaje de programación. Por lo general, se utilizan estándares abiertos, lo que comúnmente se llama interoperabilidad; las organizaciones OASIS y W3C son los comités responsables de la arquitectura y la reglamentación de los servicios web.
             .row.mb-4
               .col-12.d-inline-flex.justify-content-end.align-items-center

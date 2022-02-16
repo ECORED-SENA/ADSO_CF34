@@ -6,7 +6,7 @@
     p.mb-5 En el siguiente mapa conceptual se resumen los conceptos vistos en este componente formativo:
 
     .row.justify-content-center
-      .col-lg-10.mb-5
+      .col-lg-11.mb-5
         figure
           img(src="@/assets/curso/sintesis.svg", alt="alt")
       .col-auto

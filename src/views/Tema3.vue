@@ -76,7 +76,7 @@
           img.mt-0(src='@/assets/curso/tema3-1-img3.jpg' alt='Imagen decorativa')
       .col-lg-8.pb-4.px-lg-5
         .row.align-items-center.justify-content-center.neg--right.mb-4.pt-3(data-aos="fade-left")
-          .col-lg-12.bg-blanco.p-3.pb-lg-5
+          .col-lg-12.bg-blanco.p-3
             p.mb-0 El mismo autor afirma que el Prólogo va en la primera línea de código, aquí se declara que el documento es XML y qué versión se está utilizando. Vea el siguiente ejemplo: 
         .row.align-items-center.justify-content-center
           .col-lg-12
@@ -125,11 +125,153 @@
     
     p.mb-4 Para hacer un XML, se debe tener en cuenta la estructura de árbol, la cual es jerárquica; debe haber un elemento raíz y que de este se desprendan todos los demás, estos no se pueden superponer entre ellos, al contrario, deben estar anidados, por ejemplo, de la siguiente forma:
 
+    .row.justify-content-center.mb-5
+      .col-lg-7
+        .titulo-sexto.color-acento-contenido
+          h5 Figura 1. 
+          span Estructura
+        figure
+          img(src='@/assets/curso/tema3-1-fig.svg' alt='Estructura')
+
+    .titulo-azul.px-3.py-1.text-white.mb-5
+      h3.mb-0 Vea a continuación un ejemplo: 
+    
+    .row.fondo1-tema3-1.mb-3
+      .col-lg-12.px-lg-5
+        .row.justify-content-center.mt-0.mb-lg-4            
+          .col-lg-6.mb-4
+            ImagenInfografica.color-acento-contenido.mb-5
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema3-1-imginfog.svg', alt='ejemplo')
+              .tarjeta.color-acento-contenido.p-3(x="48%" y="19.5%" numero="1")
+                .h5.mb-0 Prólogo: Declaración
+              .tarjeta.color-acento-contenido.p-3(x="77%" y="56%" numero="2")
+                .h5.mb-2 Elemento raíz “librería”
+                p.mb-0 Dentro de este, van incluidos todos los demás elementos en orden de árbol.
+              .tarjeta.color-acento-contenido.p-3(x="5%" y="56%" numero="3")
+                .h5.mb-0 Cuerpo
+
+    h3 Etiquetas o Tags
+
+    .row.justify-content-center.fondo1-tema2
+      .col-lg-7.pb-4.px-lg-5
+        .row.align-items-center.justify-content-center.neg--left.mb-4.pt-3
+          .col-lg-12.bg-blanco2.p-3
+            p.mb-0 En el anterior ejemplo, se observa que hay elementos en los cuales se describen los datos que se contienen, así: 
+        .row.align-items-center
+          .col-lg-12
+            h4 Ejemplo 4: 
+            p En el ejercicio 1, se puede observar que: 
+          .col-lg-7.bg-celeste.py-3.px-3.mb-4.mx-2(data-aos="fade-right")
+            p.mb-0 <b>&lt;titulo&gt;</b> Guía de Aprendizaje XML  <b>&lt;/titulo&gt;</b>
+          .col-lg-12
+            ul.lista-ul.mb-0.mx-3
+              li.mb-2
+                i.fas.fa-layer-group(style='color: #039BE5')
+                p.mb-0 Cuando se inicia una etiqueta, siempre se deben abrir así: <b>&lt;titulo&gt;</b>
+              li 
+                i.fas.fa-layer-group(style='color: #039BE5')
+                p.mb-0 Cuando se termina de describir un dato, siempre se debe cerrar así: <b>&lt;/titulo&gt;</b>  
+      .col-12.col-lg-5.mb-5.mb-lg-0.mt-0.z-1
+        figure
+          img.mt-0(src='@/assets/curso/tema3-1-img7.jpg' alt='Imagen decorativa')
+
+    .row.justify-content-center.fondo2-tema3-1.mb-4
+      .col-lg-12.px-lg-5
+        .row.justify-content-center.mt-5.mb-lg-3
+          .col-lg-12
+            h3 Atributos
+      .col-12.col-lg-5.mb-4.mb-lg-0.mt-0
+        figure
+          img.mt-0(src='@/assets/curso/tema3-1-img8.svg' alt='Imagen decorativa')
+      .col-lg-7.pb-4.px-lg-5
+        .row.align-items-center.justify-content-center.neg--right.mb-4.pt-3(data-aos="fade-left")
+          .col-lg-12.bg-blanco.p-3
+            p.mb-0 Un atributo sirve para proporcionar información extra sobre el elemento que lo contiene, los atributos siempre están dentro de las etiquetas de apertura: 
+        .row.align-items-center.justify-content-center 
+          .col-lg-12
+            h4 Ejemplo 3:  
+            p En el ejercicio 1, se puede observar que: 
+          .col-lg-7.bg-celeste.py-3.px-3.mb-2.mx-2
+            p.mb-0 <b>&lt;precio</b> moneda=“euros”&gt;30<b>&lt;/precio&gt;</b>  
+          .col-lg-7.bg-celeste.py-3.px-3.mb-4.mx-2
+            p.mb-0 <b>&lt;precio</b> moneda=“pesos”&gt;80.000<b>&lt;/precio&gt;</b> 
+          .col-lg-12.mb-4
+            .cajon.color-acento-botones.p-4
+              p.mb-0 El atributo está entre comillas dobles, pero también puede ir entre comillas sencillas. En este caso específico, indica que la moneda de un libro es en euros mientras que el otro es en pesos.    
+          .col-lg-7.bg-celeste.py-3.px-3.mb-2.mx-2
+            p.mb-0 <b>&lt;autor&gt;</b>Mario Meneses<b>&lt;/autor&gt;</b>
+            p.mb-0 <b>&lt;titulo&gt;</b>Guía de Aprendizaje XML<b>&lt;/titulo&gt;</b>
+            p.mb-0 <b>&lt;precio</b> moneda=“euros”&gt;30<b>&lt;/precio&gt;</b>
+            p.mb-0 <b>&lt;autor&gt;</b>Eduardo Benavides<b>&lt;/autor&gt;</b>
+            p.mb-0 <b>&lt;titulo&gt;</b>XML con ejemplos<b>&lt;/titulo&gt;</b>
+            p.mb-0 <b>&lt;descriptor&gt;</b>lenguajes<b>&lt;/descriptor&gt;</b>
+            p.mb-0 <b>&lt;descriptor&gt;</b>Programación<b>&lt;/descriptor&gt;</b>
+            p.mb-0 <b>&lt;precio</b> moneda=“euros”&gt;30<b>&lt;/precio&gt;</b>
+            p.mb-0 <b>&lt;precio</b> moneda=“pesos”&gt;80.000<b>&lt;/precio&gt;</b>
 
 
+    .row.fondo1-tema3-1
+      .col-lg-12.px-lg-5.mb-lg-5
+        .row.justify-content-center.mt-0.mb-lg-4
+          .col-lg-12.mb-5
+            .titulo-azul.px-3.py-1.text-white
+              h3.mb-0 Miremos el siguiente ejercicio: 
+          .col-lg-6.mb-4
+            figure.p-3
+              img(src='@/assets/curso/tema3-1-cod2.svg' alt='Ejercicio')
 
+    .row.justify-content-center.mb-4
+      .col-md-4.mb-4
+        img(src='@/assets/curso/tema3-1-cod1.svg' alt='Código')
+      .col-md-1
+      .col-md-4
+        img(src='@/assets/curso/tema3-1-img6.svg' alt='Imagen decorativa')
 
-
+    .row.fondo1-tema3-3
+      .col-lg-12.px-lg-5.mb-lg-5
+        .row.justify-content-center.mt-0.mb-lg-4
+          .col-lg-12.mb-4
+            .cajon.color-acento-botones.p-4
+              p.mb-0 <b>Es posible ensayar y editar este código fuente de una manera muy sencilla.</b>
+          .row
+            .col-lg-7.mb-4
+              LineaTiempoD.color-primario
+                p(numero="1" titulo="Paso 1") Abrir el programa Notepad++            
+                p(numero="2" titulo="Paso 2") Pegar  o escribir el código
+                p(numero="3" titulo="Paso 3") Dar clic en guardar como, seleccionar una ubicación y, en el nombre, escribir un nombre+.xml, así: Familia.xml
+                p(numero="4" titulo="Paso 4") Guardar los cambios
+                .row.justify-content-center(numero="5" titulo="Paso 5") 
+                  p Ahora, al archivo que guardó, se  le da clic derecho y  se abre  con el navegador Google Chrome, y debe aparecer en el navegador así:
+                  .col-md-11
+                    img(src='@/assets/curso/tema3-1-paso5.jpg' alt='Resultado')
+            .col-lg-5.mb-4
+              img(src='@/assets/curso/tema3-1-img5.svg' alt='Imagen decorativa')
+    
+    .row.d-flex.neg--top2
+      .col-md-3.bg-blanco.bg-shadow.centrar-imagen
+        figure.p-3
+          img(src='@/assets/curso/tema3-1-img4.svg' alt='Imagen decotativa', style="width:200px")
+      .col-md-9  
+        .row.align-items-center.justify-content-center.tarjeta--azulRey(data-aos="fade-left")
+          .col-lg-12
+            figure.mb-0
+              img(src='@/assets/curso/comilla.svg').img-position2
+            .row.align-items-center.justify-content-center
+              .col-lg-9.mb-4
+                p.text-white De acuerdo con Bianco (2005), hay que recordar que: 
+                ul.lista-ul.mb-0
+                  li 
+                    i.fas.fa-layer-group(style='color: #FFA726')
+                    p.text-white.mb-0 Para editar el código, existen muchos programas, como: Microsoft Word, bloc de notas, Notepad++ y un sin número de editores.
+                  li
+                    i.fas.fa-layer-group(style='color: #FFA726')
+                    p.text-white.mb-0 Para visualizar, es mejor utilizar los navegadores Google Chrome o Mozilla Firefox, ya que otros pueden tener problemas de compatibilidad.
+                  li
+                    i.fas.fa-layer-group(style='color: #FFA726')
+                    p.text-white.mb-0 XML hace distinción de la escritura en mayúsculas y minúsculas, por lo cual hay que tener cuidado en la escritura.
+            
 
     Separador
 
@@ -192,12 +334,12 @@
           .row
             .col-lg-7.mb-4
               LineaTiempoD.color-primario
-                p.text-small(numero="1" titulo="Types") Tipos de datos.            
-                p.text-small(numero="2" titulo="Message") Descripción de los datos a transferir.
-                p.text-small(numero="3" titulo="Interface") Operaciones abstractas que describen la comunicación entre el servidor y el cliente (aún se llamaba portType en una versión anterior del estándar).
-                p.text-small(numero="4" titulo="Binding") Información sobre el protocolo de transporte utilizado.
-                p.text-small(numero="5" titulo="Endpoint") Información sobre la interfaz de comunicación, generalmente, en forma de un URI (aún se denominaba port en una versión anterior del estándar). 
-                p.text-small(numero="6" titulo="Service") Puntos de acceso del servicio web. 
+                p(numero="1" titulo="Types") Tipos de datos.            
+                p(numero="2" titulo="Message") Descripción de los datos a transferir.
+                p(numero="3" titulo="Interface") Operaciones abstractas que describen la comunicación entre el servidor y el cliente (aún se llamaba portType en una versión anterior del estándar).
+                p(numero="4" titulo="Binding") Información sobre el protocolo de transporte utilizado.
+                p(numero="5" titulo="Endpoint") Información sobre la interfaz de comunicación, generalmente, en forma de un URI (aún se denominaba port en una versión anterior del estándar). 
+                p(numero="6" titulo="Service") Puntos de acceso del servicio web. 
             .col-lg-5.mb-4
               img(src='@/assets/curso/tema3-3-img2.svg' alt='Imagen decorativa')
     
