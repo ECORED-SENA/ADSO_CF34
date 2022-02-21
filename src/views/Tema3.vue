@@ -246,8 +246,8 @@
                 p(numero="4" titulo="Paso 4") Guardar los cambios
                 .row.justify-content-center(numero="5" titulo="Paso 5") 
                   p Ahora, al archivo que guardó, se  le da clic derecho y  se abre  con el navegador Google Chrome, y debe aparecer en el navegador así:
-                  .col-md-11
-                    img(src='@/assets/curso/tema3-1-paso5.jpg' alt='Resultado')
+                  .col-md-11.mb-2
+                    img(src='@/assets/curso/tema3-1-paso5.svg' alt='Resultado')
             .col-lg-5.mb-4
               img(src='@/assets/curso/tema3-1-img5.svg' alt='Imagen decorativa')
     
