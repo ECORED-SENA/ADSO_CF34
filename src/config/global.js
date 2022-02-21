@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Servicios web con PHP',
     descripcionCurso:
-      'Los servicios web, también conocidos como web services, son un conjunto de protocolos que facilitan la comunicación entre dispositivos, permitiendo intercambiar información: “datos”. Un servicio web tiene una interfaz que oculta los detalles de implementación, para que se pueda utilizar independientemente de la plataforma de hardware o software en la que se implementa, e independientemente del lenguaje de programación en el que está escrito. ',
+      'Los servicios web, también conocidos como <em>web services</em>, son un conjunto de protocolos que facilitan la comunicación entre dispositivos, permitiendo intercambiar información: “datos”. Un servicio web tiene una interfaz que oculta los detalles de implementación, para que se pueda utilizar independientemente de la plataforma de <em>hardware</em> o <em>software</em> en la que se implementa, e independientemente del lenguaje de programación en el que está escrito. ',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -269,7 +269,7 @@ export default {
   complementario: [
     {
       texto:
-        'BM Corporation. (s. f.). UDDI (Universal Description, Discovery, and Integration). ',
+        'IBM Corporation. (s. f.). UDDI (Universal Description, Discovery, and Integration). ',
       tipo: 'Página web',
       link:
         'https://www.ibm.com/docs/es/rsas/7.5.0?topic=standards-universal-description-discovery-integration-uddi',
@@ -284,7 +284,7 @@ export default {
       texto:
         'Meneses, M. (2021b). Web Services programación Front End Consumo de servicios web [Video]. YouTube. ',
       tipo: 'Video',
-      link: 'https://youtu.be/MV3dSZx5iT',
+      link: 'https://www.youtube.com/watch?v=MV3dSZx5iTo',
     },
     {
       texto: 'SoapUI. (s. f.). Accelerating API Quality Through Testing. ',

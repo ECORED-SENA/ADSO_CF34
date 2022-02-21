@@ -15,7 +15,7 @@
       .col-lg-8.pb-4.px-lg-5
         .row.align-items-center.justify-content-center.neg--right.mb-4.pt-3(data-aos="fade-left")
           .col-lg-12.bg-blanco.p-3.pb-lg-5
-            p.mb-0 Según la organización SoapUI (s. f.), la aplicación SOAP UI esta es una herramienta muy versátil, que sirve para probar, simular y obtener el código de aplicaciones web service y la transferencia de estado representacional. Esta herramienta está generada en código java, funciona sobre SOAP, JMS, JDBC, API de REST, GraphQL y muchos servicios más, además de ser muy útil para que los futuros desarrolladores aprendan a crear API.
+            p.mb-0 Según la organización SoapUI (s. f.), la aplicación SOAP UI esta es una herramienta muy versátil, que sirve para probar, simular y obtener el código de aplicaciones <em>web service</em> y la transferencia de estado representacional. Esta herramienta está generada en código java, funciona sobre SOAP, JMS, JDBC, API de REST, GraphQL y muchos servicios más, además de ser muy útil para que los futuros desarrolladores aprendan a crear API.
         .row.align-items-center.justify-content-center.neg--top2
           .col-lg-12
             .tarjeta.bg-degrade.p-3
@@ -137,7 +137,7 @@
       .col-lg-8.pb-3.px-lg-5
         .row.align-items-center.justify-content-center.neg--right.mb-4.pt-3(data-aos="fade-left")
           .col-lg-12.bg-blanco.p-3.pb-lg-5
-            p Para probar un servicio web existente, se utilizan recursos y directorios web service que se pueden acceder de manera libre, o diferentes páginas que proveen servicios, como almacenes, bibliotecas, supermercados, etc.
+            p Para probar un servicio web existente, se utilizan recursos y directorios <em>web service</em> que se pueden acceder de manera libre, o diferentes páginas que proveen servicios, como almacenes, bibliotecas, supermercados, etc.
             p.mb-0 Para esto, es necesario saber qué tipo de proyecto se utilizará en SOAP UI, si es REST o SOAP.
         .row.align-items-center.justify-content-center.mb-3
           .col-lg-12.neg--top2.mb-4

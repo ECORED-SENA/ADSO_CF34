@@ -70,6 +70,8 @@
         .cajon.color-acento-botones.p-4
           p.mb-0 El XML es de simple uso, por lo cual se utiliza para varios servicios web, haciendo posible una forma independiente de almacenar datos para que puedan ser compartidos por diferentes aplicaciones, logrando una óptima compatibilidad entre dispositivos.
 
+    .h3 Estructura
+
     .row.justify-content-center.fondo1-tema2.mb-5
       .col-12.col-lg-4.mb-4.mb-lg-0.mt-0
         figure
@@ -191,7 +193,7 @@
             p.mb-0 Un atributo sirve para proporcionar información extra sobre el elemento que lo contiene, los atributos siempre están dentro de las etiquetas de apertura: 
         .row.align-items-center.justify-content-center 
           .col-lg-12
-            h4 Ejemplo 3:  
+            h4 Ejemplo 5:  
             p En el ejercicio 1, se puede observar que: 
           .col-lg-7.bg-celeste.py-3.px-3.mb-2.mx-2
             p.mb-0 <b>&lt;precio</b> moneda=“euros”&gt;30<b>&lt;/precio&gt;</b>  

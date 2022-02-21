@@ -8,11 +8,11 @@
         span.text-white 4
       h1 Creación de servicios
 
-    .row.justify-content-center.fondo1-tema4
+    .row.justify-content-center.fondo1-tema4.mb-4
       .col-12.col-lg-5.mb-4.mb-lg-0.mt-0
         figure
           img.mt-0(src='@/assets/curso/tema4-img1.jpg' alt='Creación de servicios')
-      .col-lg-7.pb-5
+      .col-lg-7.pb-4
         .row.align-items-center.justify-content-center.tarjeta--azulRey.neg--right.mb-4.mt-3(data-aos="fade-left")
           .col-lg-11
             figure.mb-0
@@ -24,8 +24,10 @@
                 .cuadro
         p Los mismos autores hacen notar que su función es permitir que los dispositivos interactúen entre sí y presenten información dinámica al usuario, con base en una arquitectura de referencia estándar, que hace posible su combinación para realizar integraciones entre las mismas aplicaciones.        
 
-    .desborde.mb-5
+    .desborde.mb-4
       .h2.fit-content.text-white.px-lg-5.px-4.py-2 CREACIÓN DE SERVICIOS
+
+    p.mb-5  Para la creación de servicios, se debe seguir el siguiente proceso: 
 
     .tarjeta.fondo-slider.p-4.mb-4
       SlyderA(tipo="b")
@@ -35,7 +37,7 @@
               img(src='@/assets/curso/tema4-slide1.svg', alt='Desarrollo de servicios')
           .col-md-6.bg-num1.pt-5
             h4 Desarrollo de servicios
-            p.mb-0 Se hace en la parte de servicios o en la nube, a este tipo de desarrollo también se le conoce con el nombre de backend. Esta parte de la programación no es visible para el usuario y no se ejecuta en los dispositivos o navegadores del cliente. Aquí es donde se provee el servicio para que los clientes lo consuman (Recalde, 2019).
+            p.mb-0 Se hace en la parte de servicios o en la nube, a este tipo de desarrollo también se le conoce con el nombre de <b>backend</b>. Esta parte de la programación no es visible para el usuario y no se ejecuta en los dispositivos o navegadores del cliente. Aquí es donde se provee el servicio para que los clientes lo consuman (Recalde, 2019).
         .row.justify-content-center.align-items-center
           .col-md-6.mb-4.mb-md-0.bg-num2.pt-5
             h4 Ejecución de servicios
