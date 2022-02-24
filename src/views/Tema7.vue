@@ -171,7 +171,7 @@
                       h4.mb-2 SOAP UI
                       p.mb-0 Funcionamiento de la herramienta SOAP UI, haga clic aquí.
                     .col-sm-auto
-                      a.boton.color-acento-botones(href="#" target="_blank")
+                      a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=t6LO87jW_QE" target="_blank")
                         span Ver
                         i.fas.fa-link                           
           .col-lg-12
