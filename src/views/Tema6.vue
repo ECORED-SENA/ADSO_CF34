@@ -67,7 +67,7 @@
                           p.text-small.mb-0 Editor de código fuente de licencia libre como = Notepad++ o NetBeans
                         li
                           i.fas.fa-layer-group(style='color: #FFA726')
-                          p.text-small.mb-0 Navegador web = Chrome o Internet Explorer    
+                          p.text-small.mb-0 Navegador web = <em>Chrome</em> o <em>Internet Explorer</em>    
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('/downloads/OKEst_Anexo4_EjercicioServiciosWeb.pdf')" target="_blank")
                     span Descargar

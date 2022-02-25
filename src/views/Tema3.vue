@@ -15,7 +15,7 @@
       .col-lg-7.pb-4.px-lg-5
         .row.align-items-center.justify-content-center.neg--right.mb-4.pt-3(data-aos="fade-left")
           .col-lg-12.bg-blanco.p-3.pb-lg-5
-            p.mb-0 Los servicios web permiten la nueva generación de aplicaciones basadas en Internet. Estos servicios admiten la comunicación de Internet de aplicación a aplicación, es decir, las aplicaciones en diferentes ubicaciones de la red se pueden integrar para funcionar como si fueran parte de un único sistema de software grande. Ejemplos de aplicaciones que los servicios web hacen posibles incluyen transacciones comerciales automatizadas y acceso directo (sin navegador) a dispositivos de escritorio y de mano, a las reservas, el comercio de acciones y los sistemas de seguimiento de pedidos.
+            p.mb-0 Los servicios web permiten la nueva generación de aplicaciones basadas en Internet. Estos servicios admiten la comunicación de Internet de aplicación a aplicación, es decir, las aplicaciones en diferentes ubicaciones de la red se pueden integrar para funcionar como si fueran parte de un único sistema de <em>software</em> grande. Ejemplos de aplicaciones que los servicios web hacen posibles incluyen transacciones comerciales automatizadas y acceso directo (sin navegador) a dispositivos de escritorio y de mano, a las reservas, el comercio de acciones y los sistemas de seguimiento de pedidos.
         .row.align-items-center.justify-content-center
           .col-lg-12
             p Han surgido varios estándares clave que, juntos, forman la base de los servicios web: XML (Extensible Markup Language), WSDL (Web Services Definition Language), SOAP (Simple Object Access Protocol) y UDDI (Universal Description, Discovery, and Integration). Además, se ha especificado ebXML (Electronic Business XML) para facilitar la integración automatizada de procesos comerciales entre socios comerciales.
@@ -37,7 +37,7 @@
               img(src='@/assets/curso/comilla.svg').img-position2
             .row.align-items-center.justify-content-center
               .col-lg-9
-                p.text-white XML (Extensible Markup Language) es un lenguaje de marcas que define un conjunto de reglas para la codificación de documentos, se utiliza para estructurar información en cualquier fichero que contenga texto y es muy usado en el medio, debido a que es un estándar abierto y libre, creado por el consorcio World Wide Web, W3C. 
+                p.text-white XML (Extensible Markup Language) es un lenguaje de marcas que define un conjunto de reglas para la codificación de documentos, se utiliza para estructurar información en cualquier fichero que contenga texto y es muy usado en el medio, debido a que es un estándar abierto y libre, creado por el consorcio <em>World Wide Web</em>, W3C. 
             .row.mb-4
               .col-11.d-inline-flex.justify-content-end.align-items-center
                 p.mb-0.text-white <b>Según Bianco (2005)</b>
@@ -245,7 +245,7 @@
                 p(numero="3" titulo="Paso 3") Dar clic en guardar como, seleccionar una ubicación y, en el nombre, escribir un nombre+.xml, así: Familia.xml
                 p(numero="4" titulo="Paso 4") Guardar los cambios
                 .row.justify-content-center(numero="5" titulo="Paso 5") 
-                  p Ahora, al archivo que guardó, se  le da clic derecho y  se abre  con el navegador Google Chrome, y debe aparecer en el navegador así:
+                  p Ahora, al archivo que guardó, se  le da clic derecho y  se abre  con el navegador <em>Google Chrome</em>, y debe aparecer en el navegador así:
                   .col-md-11.mb-2
                     img(src='@/assets/curso/tema3-1-paso5.svg' alt='Resultado')
             .col-lg-5.mb-4
@@ -269,7 +269,7 @@
                     p.text-white.mb-0 Para editar el código, existen muchos programas, como: Microsoft Word, bloc de notas, Notepad++ y un sin número de editores.
                   li
                     i.fas.fa-layer-group(style='color: #FFA726')
-                    p.text-white.mb-0 Para visualizar, es mejor utilizar los navegadores Google Chrome o Mozilla Firefox, ya que otros pueden tener problemas de compatibilidad.
+                    p.text-white.mb-0 Para visualizar, es mejor utilizar los navegadores <em>Google Chrome</em> o <em>Mozilla Firefox</em>, ya que otros pueden tener problemas de compatibilidad.
                   li
                     i.fas.fa-layer-group(style='color: #FFA726')
                     p.text-white.mb-0 XML hace distinción de la escritura en mayúsculas y minúsculas, por lo cual hay que tener cuidado en la escritura.
@@ -433,7 +433,7 @@
         figure
           img(src='@/assets/curso/tema3-5-img2.jpg' alt='SOAP “Simple Object Access Protocol”')
       .col-lg-10.bg-naranja.borde-redondo.neg--top.p-4          
-        p.mb-0 El mismo autor resalta que, para hacer uso de esta comunicación, se hace a través de estos lenguajes o formatos: XML, HTML, JSON; JSON, este es el tipo de mensajes más difundido en diferentes servicios propios de redes sociales (Facebook y Twitter) y comunidades en Internet. Cada mensaje intercambiado contiene la información necesaria para el funcionamiento del servicio, de tal forma que, para cada servicio, el cliente y el servidor conocen el formato o protocolo interno de los mensajes.
+        p.mb-0 El mismo autor resalta que, para hacer uso de esta comunicación, se hace a través de estos lenguajes o formatos: XML, HTML, JSON; JSON, este es el tipo de mensajes más difundido en diferentes servicios propios de redes sociales (<em>Facebook</em> y <em>Twitter</em>) y comunidades en Internet. Cada mensaje intercambiado contiene la información necesaria para el funcionamiento del servicio, de tal forma que, para cada servicio, el cliente y el servidor conocen el formato o protocolo interno de los mensajes.
 
     Separador
 
@@ -453,7 +453,7 @@
               img(src='@/assets/curso/comilla.svg').img-position2
             .row.justify-content-center
               .col-lg-9
-                p.text-white JSON (JavaScript Object Notation) es un formato ligero de intercambio de datos, es de fácil lectura y escritura para los usuarios, fácil de analizar y generar por parte de los dispositivos, además, se basa en un subconjunto del lenguaje de programación JavaScript; es compatible con la gran mayoría de lenguajes de programación, lo que lo hace el más popular y usado en el web service. 
+                p.text-white JSON (JavaScript Object Notation) es un formato ligero de intercambio de datos, es de fácil lectura y escritura para los usuarios, fácil de analizar y generar por parte de los dispositivos, además, se basa en un subconjunto del lenguaje de programación JavaScript; es compatible con la gran mayoría de lenguajes de programación, lo que lo hace el más popular y usado en el <em>web service</em>. 
             .row.mb-4
               .col-11.d-inline-flex.justify-content-end.align-items-center
                 p.mb-0.text-white <b>(IBM Corporation, 2020)</b>
