@@ -46,7 +46,7 @@ export default {
         numero: 'item-2',
         titulo: 'Implementación de servicios en PHP',
         contenido1:
-          'García (2003) describe que, para que una un cliente tenga acceso a la información de un servicio, lo implemente y active el método en el servidor, hay un sistema de catálogo que, de manera predeterminada, efectúa todos los servicios web y sus métodos; de esta forma, con las credenciales adecuadas, un cliente tiene acceso a todas las funciones de los servicios web.',
+          'García (2003) describe que, para que un cliente tenga acceso a la información de un servicio, lo implemente y active el método en el servidor, hay un sistema de catálogo que, de manera predeterminada, efectúa todos los servicios web y sus métodos; de esta forma, con las credenciales adecuadas, un cliente tiene acceso a todas las funciones de los servicios web.',
         contenido2:
           'Este autor también refiere que, al momento de implementar un servicio web, se actualiza el WSDL, “archivo de Lenguaje de Descripción de Servicios Web”. Hay que recordar que cada servicio web tiene su propio WSDL, el cual contiene información sobre los servicios implementados en ese momento y también las firmas de métodos.',
       },
@@ -58,7 +58,7 @@ export default {
         numero: 'item-3',
         titulo: 'Consumo de métodos',
         contenido1:
-          'El consumo de un servicio, en este caso en REST Ful, es tan sencillo como enviar un pedido en HTTP y procesar su respuesta.',
+          'El consumo de un servicio, en este caso en RESTFul, es tan sencillo como enviar un pedido en HTTP y procesar su respuesta.',
         subtitulo: 'Ejemplo: ',
         contenido2:
           '<?php $res = file_get_contents(“https://www.sena.edu.co/es-co/formacion/Paginas/Estudie-en-el-SENA.aspx”);',

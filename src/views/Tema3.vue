@@ -440,7 +440,7 @@
 
     #t_3_6
     .titulo-segundo.color-acento-contenido
-      h2 3.6 JSON “JavaScript Object Notation”  
+      h2 3.6 JSON "JavaScript Object Notation”  
 
     .row.justify-content-center.align-items-center.fondo1-tema4.mb-5
       .col-12.col-lg-5.mb-4.mb-lg-0.mt-0

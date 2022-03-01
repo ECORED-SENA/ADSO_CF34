@@ -73,7 +73,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.6',
-            titulo: 'JASON “JavaScript Object Notation”',
+            titulo: 'JSON “JavaScript Object Notation”',
             hash: 't_3_6',
           },
         ],
@@ -124,7 +124,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
