@@ -146,17 +146,6 @@
                 .col
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-0
-                      h4.mb-2 REGRES.IN
-                      p.mb-0 Para este caso en particular, se utilizará una página, haga clic aquí.
-                    .col-sm-auto
-                      a.boton.color-acento-botones(href="https://regres.in/" target="_blank")
-                        span Ver
-                        i.fas.fa-link   
-            .tarjeta.bg-degrade.p-3.mb-3
-              .row.align-items-center
-                .col
-                  .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
                       h4.mb-2 LOCAL HOST
                       p.mb-0 Se realizará la prueba con el ejercicio que se desarrolló, haga clic aquí.
                     .col-sm-auto
